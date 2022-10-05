@@ -12,14 +12,7 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
-    
-}
-
-.header a:link {
-    color: white; 
-    background-color: transparent; 
-    text-decoration: none;
+    color: #ffffff;    
 }
 
 .header h1 {
@@ -67,12 +60,6 @@ body {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,7 +88,10 @@ body {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -110,39 +100,13 @@ body {
     color: #ffffff;
 }
 
-.online-reputation-management {
+.content img {
+        max-width: 250px;
+}
+
+.content p {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .online-reputation-management h2 {
